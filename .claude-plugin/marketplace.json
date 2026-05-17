@@ -1,0 +1,28 @@
+{
+  "name": "benichou-ai-automations",
+  "owner": {
+    "name": "Franck Benichou"
+  },
+  "plugins": [
+    {
+      "name": "gtm-cs-ai-automations",
+      "source": "./gtm-cs-ai-automations",
+      "description": "Generate QBR-ready account health briefs for Customer Success Managers"
+    },
+    {
+      "name": "gtm-sales-ai-automations",
+      "source": "./gtm-sales-ai-automations",
+      "description": "Prep an Account Executive for a discovery call — company brief, 5 tailored discovery questions, and a draft follow-up email"
+    },
+    {
+      "name": "gtm-revops-ai-automations",
+      "source": "./gtm-revops-ai-automations",
+      "description": "Pipeline-hygiene + roll-up Model Context Protocol server with 4 tools, plus a skill that assembles Monday-morning pipeline reviews"
+    },
+    {
+      "name": "gtm-marketing-ai-automations",
+      "source": "./gtm-marketing-ai-automations",
+      "description": "Content repurposing plugin that composes every primitive — slash command, two skills, Model Context Protocol server, and a PostToolUse audit hook that guarantees a governance log of every generated artifact"
+    }
+  ]
+}

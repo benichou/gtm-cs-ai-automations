@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "gtm-revops": {
+      "command": "uv",
+      "args": [
+        "run",
+        "--package",
+        "gtm-revops-ai-automations",
+        "gtm-revops-mcp",
+        "--stdio"
+      ],
+      "cwd": "/Users/franck.benichou/projects/personal/repos/gtm-cs-ai-automations"
+    }
+  }
+}

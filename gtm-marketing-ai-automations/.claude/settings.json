@@ -1,0 +1,28 @@
+{
+  "mcpServers": {
+    "gtm-marketing": {
+      "command": "uv",
+      "args": [
+        "run",
+        "--package",
+        "gtm-marketing-ai-automations",
+        "gtm-marketing-mcp",
+        "--stdio"
+      ],
+      "cwd": "/Users/franck.benichou/projects/personal/repos/gtm-cs-ai-automations"
+    }
+  },
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Write",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "${CLAUDE_PROJECT_DIR}/hooks/audit.sh"
+          }
+        ]
+      }
+    ]
+  }
+}

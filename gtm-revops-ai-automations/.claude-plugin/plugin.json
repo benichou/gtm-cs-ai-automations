@@ -1,0 +1,9 @@
+{
+  "name": "gtm-revops-ai-automations",
+  "version": "0.1.0",
+  "description": "Pipeline hygiene + roll-up automation for Revenue Operations analysts. Ships a Model Context Protocol server exposing 4 tools (list open opportunities, check data quality, roll up pipeline, flag stale opportunities) plus a skill that orchestrates them into Monday-morning pipeline reviews.",
+  "author": {
+    "name": "Franck Benichou"
+  },
+  "homepage": "https://github.com/benichou/gtm-cs-ai-automations"
+}

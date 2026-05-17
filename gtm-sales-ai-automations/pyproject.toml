@@ -1,0 +1,24 @@
+[project]
+name = "gtm-sales-ai-automations"
+version = "0.1.0"
+description = "Sales discovery-call prep automation for Account Executives — Claude Code plugin with slash command + skill"
+readme = "README.md"
+requires-python = ">=3.11"
+authors = [{ name = "Franck Benichou" }]
+dependencies = []
+
+[project.scripts]
+gtm-sales-enrich = "gtm_sales.cli:main"
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0",
+    "ruff>=0.5",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/gtm_sales"]

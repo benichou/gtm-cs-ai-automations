@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+.pytest_cache/
+.ruff_cache/
+
+# Build artifacts
+dist/
+build/
+
+# Generated fixtures (run scripts/seed.py to regenerate)
+**/fixtures/*.csv
+**/fixtures/*.json
+# Static (hand-authored) fixtures that must be committed
+!gtm-sales-ai-automations/fixtures/companies.json
+
+# Local outputs
+output/
+*.log
+
+# OS
+.DS_Store
+
+# Editor
+.vscode/
+.idea/

@@ -1,0 +1,330 @@
+[
+  {
+    "name": "Foundry Contractors",
+    "type": "private",
+    "industry": "general_contractor",
+    "headcount_band": "1000-5000",
+    "revenue_band": "$500M-$1B",
+    "headquarters": "Denver, CO",
+    "founded_year": 1962,
+    "regions_active": ["Mountain West", "Pacific Northwest"],
+    "recent_events": [
+      "Announced expansion into Idaho data-center construction (Q1 2026)",
+      "Hired new VP of Field Operations from a Top-50 ENR competitor (Mar 2026)",
+      "Reported 18% YoY revenue growth in their 2025 annual review"
+    ],
+    "notable_projects": [
+      "Phoenix Light Rail Extension ($420M, 2024-2026)",
+      "Boise Federal Courthouse retrofit ($110M, 2023-2025)",
+      "Denver International Airport concourse expansion ($380M, ongoing)"
+    ],
+    "pain_points_inferred": [
+      "Rapid hiring in skilled trades during a national shortage",
+      "Multi-region scheduling across 8+ active megaprojects",
+      "Subcontractor coordination on federal contracts with strict prevailing-wage compliance"
+    ],
+    "source": "fixture"
+  },
+  {
+    "name": "Cascade Construction Group",
+    "type": "private",
+    "industry": "general_contractor",
+    "headcount_band": "500-1000",
+    "revenue_band": "$200M-$500M",
+    "headquarters": "Seattle, WA",
+    "founded_year": 1985,
+    "regions_active": ["Pacific Northwest", "Northern California"],
+    "recent_events": [
+      "Opened a new Portland regional office (Feb 2026)",
+      "Won a $90M Seattle Public Schools modernization contract (Jan 2026)",
+      "Featured in ENR Pacific Northwest Top Contractors 2026"
+    ],
+    "notable_projects": [
+      "Seattle Convention Center addition ($120M, 2022-2024)",
+      "Tacoma Tideflats redevelopment ($75M, 2024-2026)"
+    ],
+    "pain_points_inferred": [
+      "Recent growth straining capacity planning across two regions",
+      "Mix of public-school and commercial work with very different staffing patterns",
+      "Difficulty forecasting headcount needs 6+ months ahead"
+    ],
+    "source": "fixture"
+  },
+  {
+    "name": "Granite Peak Builders",
+    "type": "private",
+    "industry": "specialty_contractor",
+    "headcount_band": "200-500",
+    "revenue_band": "$50M-$200M",
+    "headquarters": "Salt Lake City, UT",
+    "founded_year": 1998,
+    "regions_active": ["Mountain West"],
+    "recent_events": [
+      "Lost a key superintendent to a competitor (Apr 2026)",
+      "Bid on the largest project in company history — $180M ski-resort village build",
+      "Joined the Associated General Contractors of Utah board"
+    ],
+    "notable_projects": [
+      "Park City alpine lodge ($85M, 2023-2025)",
+      "Provo university student housing ($45M, 2024-2026)"
+    ],
+    "pain_points_inferred": [
+      "Heavy reliance on a handful of senior superintendents — single points of failure",
+      "Seasonal demand swings tied to resort construction calendar",
+      "Bidding aggressively on larger projects without matching headcount growth"
+    ],
+    "source": "fixture"
+  },
+  {
+    "name": "Northstar Civil Engineering",
+    "type": "private",
+    "industry": "civil_engineering",
+    "headcount_band": "1000-5000",
+    "revenue_band": "$200M-$500M",
+    "headquarters": "Minneapolis, MN",
+    "founded_year": 1971,
+    "regions_active": ["Midwest", "Great Lakes"],
+    "recent_events": [
+      "Awarded a $260M MnDOT highway-bridge replacement contract (Mar 2026)",
+      "Acquired a 40-person geotechnical firm in Wisconsin (Q4 2025)",
+      "Announced a partnership with a Canadian heavy-civil contractor on cross-border infrastructure"
+    ],
+    "notable_projects": [
+      "I-94 corridor expansion, Phase 2 ($310M, 2023-2026)",
+      "Duluth port renovation ($95M, 2024-2027)"
+    ],
+    "pain_points_inferred": [
+      "Integrating a recent acquisition's workforce systems",
+      "Long-duration federal/state projects requiring multi-year resource forecasting",
+      "Geographic spread between core MN ops and new WI/Canada engagements"
+    ],
+    "source": "fixture"
+  },
+  {
+    "name": "Apex Construction Managers",
+    "type": "private",
+    "industry": "construction_management",
+    "headcount_band": "200-500",
+    "revenue_band": "$50M-$200M",
+    "headquarters": "Austin, TX",
+    "founded_year": 2004,
+    "regions_active": ["Texas", "Oklahoma", "Louisiana"],
+    "recent_events": [
+      "Onboarded as construction manager for a $200M Austin tech-campus build (Feb 2026)",
+      "Promoted three senior CMs to partner (Jan 2026)",
+      "Reported challenges hiring junior estimators in the 2025 industry survey"
+    ],
+    "notable_projects": [
+      "Houston Energy Corridor office tower ($140M, ongoing)",
+      "Dallas mixed-use development ($75M, 2024-2026)"
+    ],
+    "pain_points_inferred": [
+      "Estimator shortage limiting their bid capacity",
+      "Texas-only growth strategy concentrating geographic risk",
+      "Heavy reliance on owner-rep engagements vs. self-perform work"
+    ],
+    "source": "fixture"
+  },
+  {
+    "name": "Heartland Build Partners",
+    "type": "private",
+    "industry": "general_contractor",
+    "headcount_band": "500-1000",
+    "revenue_band": "$200M-$500M",
+    "headquarters": "Kansas City, MO",
+    "founded_year": 1958,
+    "regions_active": ["Midwest", "Plains"],
+    "recent_events": [
+      "Quietly laid off 8% of office staff in Q1 2026 amid a softening pipeline",
+      "Pulled out of a $220M warehouse-distribution project at the eleventh hour",
+      "New CEO appointed from outside the construction industry (Feb 2026)"
+    ],
+    "notable_projects": [
+      "Kansas City logistics park ($110M, 2023-2025)",
+      "Wichita medical office complex ($60M, 2024-2026)"
+    ],
+    "pain_points_inferred": [
+      "Pipeline softening — likely cost-conscious on net-new tooling spend",
+      "New CEO probably rationalizing tech stack and vendor list in first 6 months",
+      "Recent layoffs may have eroded internal capacity for change management"
+    ],
+    "source": "fixture"
+  },
+  {
+    "name": "Pacific Trident Industries",
+    "type": "public",
+    "industry": "general_contractor",
+    "headcount_band": "10000+",
+    "revenue_band": "$2B+",
+    "headquarters": "San Francisco, CA",
+    "founded_year": 1934,
+    "regions_active": ["West Coast", "Hawaii", "Pacific Rim"],
+    "recent_events": [
+      "Q1 2026 earnings beat estimates; raised full-year revenue guidance by 6%",
+      "Announced a $40M investment in digital tooling and workforce-management software",
+      "Settled a class-action wage-and-hour case for $18M (Mar 2026)"
+    ],
+    "notable_projects": [
+      "Honolulu rail-transit Phase 3 ($1.2B, 2024-2028)",
+      "Los Angeles seismic retrofit program ($600M, multi-year)",
+      "San Francisco hospital tower ($450M, ongoing)"
+    ],
+    "pain_points_inferred": [
+      "Recent legal settlement around scheduling and wage compliance — heightened sensitivity to workforce-tracking accuracy",
+      "Public-company quarter-to-quarter pressure on operating margin",
+      "Internal $40M digital initiative — buyer is likely already mid-evaluation, complex sales motion"
+    ],
+    "source": "fixture"
+  },
+  {
+    "name": "Ridgeway Specialty Trades",
+    "type": "private",
+    "industry": "specialty_contractor",
+    "headcount_band": "500-1000",
+    "revenue_band": "$200M-$500M",
+    "headquarters": "Cleveland, OH",
+    "founded_year": 1976,
+    "regions_active": ["Midwest", "Ohio Valley"],
+    "recent_events": [
+      "Won a $75M electrical-and-mechanical scope on a data-center build (Mar 2026)",
+      "Promoted their first female COO in company history (Feb 2026)",
+      "Invested in a robotics-assisted prefab facility (Q4 2025)"
+    ],
+    "notable_projects": [
+      "Columbus data-center campus electrical scope ($90M, 2025-2027)",
+      "Cleveland hospital mechanical retrofit ($35M, 2023-2025)"
+    ],
+    "pain_points_inferred": [
+      "Specialty trades have particularly volatile crew sizing — sometimes hiring/laying off the same week",
+      "Prefab investment changes the headcount profile from field to shop — workforce planning has to evolve",
+      "Single-trade specialization means dependency on GC scheduling decisions outside their control"
+    ],
+    "source": "fixture"
+  },
+  {
+    "name": "Skyline Federal Builders",
+    "type": "private",
+    "industry": "general_contractor",
+    "headcount_band": "200-500",
+    "revenue_band": "$50M-$200M",
+    "headquarters": "Alexandria, VA",
+    "founded_year": 1989,
+    "regions_active": ["Mid-Atlantic", "DC Metro"],
+    "recent_events": [
+      "Awarded a small-business set-aside GSA contract worth $30M over 5 years (Q1 2026)",
+      "Hired a new VP of Federal Compliance (Feb 2026)",
+      "Lost a major DoD bid to a larger competitor citing 'capacity concerns'"
+    ],
+    "notable_projects": [
+      "Quantico training-facility expansion ($25M, ongoing)",
+      "Bethesda federal office renovation ($18M, 2024-2025)"
+    ],
+    "pain_points_inferred": [
+      "Strict federal compliance reporting on labor hours, prevailing wage, security clearances",
+      "Need to prove capacity to win larger DoD work without overhiring",
+      "Manual labor-hour tracking for federal audits — high paperwork burden"
+    ],
+    "source": "fixture"
+  },
+  {
+    "name": "Bedrock Foundations LLC",
+    "type": "private",
+    "industry": "specialty_contractor",
+    "headcount_band": "200-500",
+    "revenue_band": "$50M-$200M",
+    "headquarters": "Atlanta, GA",
+    "founded_year": 2001,
+    "regions_active": ["Southeast"],
+    "recent_events": [
+      "Featured in a regional trade publication for a complex Atlanta high-rise foundation",
+      "Recently lost a long-tenured operations manager to retirement (Q1 2026)",
+      "Doubled their crew count in 18 months on the strength of Sun Belt construction demand"
+    ],
+    "notable_projects": [
+      "Atlanta financial-district tower foundations ($35M, 2024-2025)",
+      "Nashville mixed-use foundations ($22M, ongoing)"
+    ],
+    "pain_points_inferred": [
+      "Knowledge loss from the operations-manager retirement",
+      "Recent crew doubling means scheduling/planning processes built for half the size",
+      "Concrete and foundation work has tight weather windows — schedule precision matters"
+    ],
+    "source": "fixture"
+  },
+  {
+    "name": "Westbound Infrastructure",
+    "type": "private",
+    "industry": "civil_engineering",
+    "headcount_band": "1000-5000",
+    "revenue_band": "$500M-$1B",
+    "headquarters": "Sacramento, CA",
+    "founded_year": 1968,
+    "regions_active": ["California", "Nevada", "Arizona"],
+    "recent_events": [
+      "Awarded $480M California high-speed-rail subcontract (Mar 2026)",
+      "Announced a hiring push of 300 field positions in 2026",
+      "Tested an AI-based equipment-utilization tool — publicly enthusiastic about results"
+    ],
+    "notable_projects": [
+      "Central Valley high-speed-rail Section 4 ($480M, 2026-2030)",
+      "Sacramento delta levee reinforcement ($120M, ongoing)"
+    ],
+    "pain_points_inferred": [
+      "Public-flavored growth ambition (300-person hiring) requires confidence in headcount planning",
+      "Multi-decade public infrastructure projects with very long resource-forecasting horizons",
+      "Already open to AI-tooling — likely a quick technical-evaluation cycle"
+    ],
+    "source": "fixture"
+  },
+  {
+    "name": "Cornerstone Design-Build",
+    "type": "private",
+    "industry": "design_build",
+    "headcount_band": "500-1000",
+    "revenue_band": "$200M-$500M",
+    "headquarters": "Chicago, IL",
+    "founded_year": 1992,
+    "regions_active": ["Midwest", "Great Lakes"],
+    "recent_events": [
+      "Won an industry award for sustainability on a Chicago school project (Feb 2026)",
+      "Lost a marquee design-build pursuit citing 'inability to commit to schedule certainty' in their proposal",
+      "Hired a new Director of Pre-construction with workforce-planning background"
+    ],
+    "notable_projects": [
+      "Chicago Public Schools sustainable campus ($95M, 2023-2025)",
+      "Milwaukee corporate HQ design-build ($60M, ongoing)"
+    ],
+    "pain_points_inferred": [
+      "Design-build firms eat schedule risk directly — workforce certainty is existential",
+      "Recent lost pursuit explicitly cited scheduling — top-of-mind problem",
+      "New pre-construction director almost certainly evaluating tooling in first 90 days"
+    ],
+    "source": "fixture"
+  },
+  {
+    "name": "Anchor Construction Holdings",
+    "type": "public",
+    "industry": "general_contractor",
+    "headcount_band": "10000+",
+    "revenue_band": "$2B+",
+    "headquarters": "New York, NY",
+    "founded_year": 1908,
+    "regions_active": ["Northeast", "Mid-Atlantic", "Southeast"],
+    "recent_events": [
+      "Q4 2025 earnings missed; CEO announced a strategic review of operations",
+      "Spun off a non-core mechanical subsidiary in Q1 2026",
+      "Launched an internal initiative to standardize workforce-planning tools across 14 regional offices"
+    ],
+    "notable_projects": [
+      "New York Penn Station modernization, Phase 2 ($800M, 2024-2028)",
+      "Atlanta airport terminal expansion ($550M, ongoing)",
+      "Boston Seaport mixed-use ($420M, 2025-2027)"
+    ],
+    "pain_points_inferred": [
+      "Strategic review = cost discipline + capability rationalization underway",
+      "Workforce-planning standardization initiative is a direct match for our product — sales motion likely top-down rather than bottom-up",
+      "14 regional offices means change-management complexity rivals the product fit"
+    ],
+    "source": "fixture"
+  }
+]

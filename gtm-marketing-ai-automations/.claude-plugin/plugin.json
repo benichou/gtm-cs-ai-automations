@@ -1,0 +1,9 @@
+{
+  "name": "gtm-marketing-ai-automations",
+  "version": "0.1.0",
+  "description": "Repurpose a long-form marketing asset into channel-specific outputs (LinkedIn post, sales one-pager, customer email) with brand-voice scoring and a guaranteed audit log of every generated artifact. Composes all five Claude Code primitives: plugin, slash command, skill, Model Context Protocol server, and a PostToolUse hook.",
+  "author": {
+    "name": "Franck Benichou"
+  },
+  "homepage": "https://github.com/benichou/gtm-cs-ai-automations"
+}

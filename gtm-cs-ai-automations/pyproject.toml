@@ -1,0 +1,26 @@
+[project]
+name = "gtm-cs-ai-automations"
+version = "0.1.0"
+description = "Customer Success Manager QBR-brief automation via a Claude Code skill"
+readme = "README.md"
+requires-python = ">=3.11"
+authors = [{ name = "Franck Benichou" }]
+dependencies = [
+    "pandas>=2.2",
+]
+
+[project.scripts]
+gtm-cs = "gtm_cs.cli:main"
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0",
+    "ruff>=0.5",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/gtm_cs"]

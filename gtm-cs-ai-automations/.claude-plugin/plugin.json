@@ -1,0 +1,9 @@
+{
+  "name": "gtm-cs-ai-automations",
+  "version": "0.1.0",
+  "description": "Generate QBR-ready account health briefs for Customer Success Managers from raw usage, support, and expansion-signal data.",
+  "author": {
+    "name": "Franck Benichou"
+  },
+  "homepage": "https://github.com/benichou/gtm-cs-ai-automations"
+}

@@ -1,0 +1,31 @@
+# Pre-commit hooks for this monorepo.
+#
+# Install once after cloning:
+#   uv sync --all-extras   # ensures `pre-commit` is on the workspace .venv path
+#   uv run pre-commit install
+#
+# After that, every `git commit` automatically runs:
+#   - ruff check (lint — finds bugs, unused imports, style violations)
+#   - ruff format --check (format check — fails if any file is not canonically formatted)
+#
+# Both run only on the files staged for commit, so this is fast in practice.
+# If a hook fails, run the fix command it suggests, re-stage, and commit again.
+#
+# To run all hooks against all files manually (useful right after install or
+# when the config changes):
+#   uv run pre-commit run --all-files
+
+repos:
+  - repo: https://github.com/astral-sh/ruff-pre-commit
+    # Match the ruff version pinned in the workspace's uv.lock.
+    rev: v0.15.13
+    hooks:
+      # 1. Lint: catch bugs, unused imports, style violations using the rule
+      #    set declared in pyproject.toml ([tool.ruff.lint] select = E, F, I, UP, B).
+      - id: ruff-check
+        # No --fix so the developer sees what the issue was; run `ruff check
+        # --fix` manually to auto-resolve fixable issues.
+      # 2. Format check: fail if any file isn't canonically formatted. Use
+      #    `uv run ruff format` to fix.
+      - id: ruff-format
+        args: ["--check"]

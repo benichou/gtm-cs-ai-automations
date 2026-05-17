@@ -1,0 +1,9 @@
+{
+  "name": "gtm-sales-ai-automations",
+  "version": "0.1.0",
+  "description": "Prep an Account Executive for a discovery call with a target company — enriches company context from a fixture, drafts 5 tailored discovery questions, and drafts a follow-up email in the AE's voice. Invoked via the /prep-call slash command or plain-English questions.",
+  "author": {
+    "name": "Franck Benichou"
+  },
+  "homepage": "https://github.com/benichou/gtm-cs-ai-automations"
+}

@@ -276,4 +276,3 @@ This repo is the deliverable for a 4-day interview prep curriculum laid out in [
 - **Plugin 3 (RevOps)** — add a Model Context Protocol server. Introduces the *menu-of-operations* model where Claude picks from registered tools instead of being told which command to run.
 - **Plugin 4 (Marketing)** — compose everything. Adds the PostToolUse hook for runtime-guaranteed governance.
 
-The interview cheat sheet at [`../bridgit-interview-cheat-sheet.md`](../bridgit-interview-cheat-sheet.md) is the one-page reference for the day-of.

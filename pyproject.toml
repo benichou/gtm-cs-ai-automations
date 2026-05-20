@@ -4,6 +4,7 @@ members = [
     "gtm-sales-ai-automations",
     "gtm-revops-ai-automations",
     "gtm-marketing-ai-automations",
+    "gtm-sales-leadership-ai-automations",
 ]
 
 [tool.ruff]

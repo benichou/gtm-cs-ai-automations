@@ -23,6 +23,11 @@
       "name": "gtm-marketing-ai-automations",
       "source": "./gtm-marketing-ai-automations",
       "description": "Content repurposing plugin that composes every primitive — slash command, two skills, Model Context Protocol server, and a PostToolUse audit hook that guarantees a governance log of every generated artifact"
+    },
+    {
+      "name": "gtm-sales-leadership-ai-automations",
+      "source": "./gtm-sales-leadership-ai-automations",
+      "description": "Sales-leadership pipeline-health Model Context Protocol server with 4 aggregation tools (forecast roll-up, deals closing by date, deals to inspect by risk, per-rep scorecard) and 4 focused skills answering the Monday-morning questions a VP Sales asks"
     }
   ]
 }

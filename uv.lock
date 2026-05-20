@@ -16,6 +16,7 @@ members = [
     "gtm-marketing-ai-automations",
     "gtm-revops-ai-automations",
     "gtm-sales-ai-automations",
+    "gtm-sales-leadership-ai-automations",
 ]
 
 [[package]]
@@ -296,6 +297,28 @@ dev = [
 
 [package.metadata]
 requires-dist = [
+    { name = "pytest", marker = "extra == 'dev'", specifier = ">=8.0" },
+    { name = "ruff", marker = "extra == 'dev'", specifier = ">=0.5" },
+]
+provides-extras = ["dev"]
+
+[[package]]
+name = "gtm-sales-leadership-ai-automations"
+version = "0.1.0"
+source = { editable = "gtm-sales-leadership-ai-automations" }
+dependencies = [
+    { name = "mcp", extra = ["cli"] },
+]
+
+[package.optional-dependencies]
+dev = [
+    { name = "pytest" },
+    { name = "ruff" },
+]
+
+[package.metadata]
+requires-dist = [
+    { name = "mcp", extras = ["cli"], specifier = ">=1.2" },
     { name = "pytest", marker = "extra == 'dev'", specifier = ">=8.0" },
     { name = "ruff", marker = "extra == 'dev'", specifier = ">=0.5" },
 ]

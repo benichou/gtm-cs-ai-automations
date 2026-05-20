@@ -1,0 +1,9 @@
+{
+  "name": "gtm-sales-leadership-ai-automations",
+  "version": "0.1.0",
+  "description": "Sales-leadership pipeline-health automation. Ships a Model Context Protocol server with 4 tools (forecast roll-up, deals closing by date, deals to inspect by risk, per-rep scorecard) plus 4 focused skills that answer the specific aggregation questions a VP Sales asks every Monday.",
+  "author": {
+    "name": "Franck Benichou"
+  },
+  "homepage": "https://github.com/benichou/gtm-cs-ai-automations"
+}

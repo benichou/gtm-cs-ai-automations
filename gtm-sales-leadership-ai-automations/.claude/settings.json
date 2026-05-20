@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "gtm-sales-leadership": {
+      "command": "uv",
+      "args": [
+        "run",
+        "--package",
+        "gtm-sales-leadership-ai-automations",
+        "gtm-sales-leadership-mcp",
+        "--stdio"
+      ],
+      "cwd": "/Users/franck.benichou/projects/personal/repos/gtm-cs-ai-automations"
+    }
+  }
+}
